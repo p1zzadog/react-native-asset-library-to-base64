@@ -24,10 +24,10 @@ RCT_EXPORT_METHOD(readImage:(NSString *)input callback:(RCTResponseSenderBlock)c
     // Create an ALAssetRepresentation object using our asset
     // and turn it into a bitmap using the CGImageRef opaque type.
     ALAssetRepresentation *representation = [asset defaultRepresentation];
-    CGImageRef imageRef = [representation fullResolutionImage];
+    CGImageRef imageRef = [representation fullScreenImage];
 
     // Create UIImageJPEGRepresentation from CGImageRef
-    NSData *imageData = UIImageJPEGRepresentation([UIImage imageWithCGImage:imageRef], 1.0);
+    NSData *imageData = UIImageJPEGRepresentation([UIImage imageWithCGImage:imageRef], 0.7);
 
     // Convert to base64 encoded string
     NSString *base64Encoded = [imageData base64EncodedStringWithOptions:0];
