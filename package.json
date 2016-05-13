@@ -1,12 +1,12 @@
 {
-  "name": "react-native-asset-library-to-base64",
+  "name": "react-native-asset-library-to-screen-size-base64",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wootwoot1234/react-native-asset-library-to-base64.git"
+    "url": "git+https://github.com/p1zzadog/react-native-asset-library-to-base64"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React Native Module that takes an image's asset-library:// uri and returns base64.",
-  "author": "Tom Krones (wootwoot1234)",
+  "author": "Steve Moody (p1zzadog)",
   "contributors": [],
   "nativePackage": true,
   "keywords": [
@@ -19,9 +19,9 @@
     "base64"
   ],
   "bugs": {
-    "url": "https://github.com/wootwoot1234/react-native-asset-library-to-base64/issues"
+    "url": "https://github.com/p1zzadog/react-native-asset-library-to-base64/issues"
   },
-  "homepage": "https://github.com/wootwoot1234/react-native-asset-library-to-base64#readme",
+  "homepage": "https://github.com/p1zzadog/react-native-asset-library-to-base64#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
